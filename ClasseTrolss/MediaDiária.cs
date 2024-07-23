@@ -1,3 +1,6 @@
+namespace Modelos
+{
+
 public class MediaDiária{
 
     string cliente;
@@ -22,5 +25,6 @@ public class MediaDiária{
     {
         return mediadiária;
     }
+}
 }
 

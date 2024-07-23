@@ -1,4 +1,9 @@
-public class Produto
+ namespace Modelos
+ {
+
+ 
+ 
+ public class Produto
 {
      string nome;
     Int64 id;
@@ -54,7 +59,7 @@ public class Produto
         return categoria;
     }
 
-
+  }
 }
 
 

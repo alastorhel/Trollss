@@ -1,4 +1,5 @@
-
+namespace Modelos
+{
 
 public class Cliente
 {
@@ -14,13 +15,13 @@ public class Cliente
         return nome;
     }
 
-     int Telefone;
+     string Telefone;
     
-    public void SetTelefone(int telefone)
+    public void SetTelefone(string telefone)
     {
         this.Telefone = telefone;
     }
-    public int GetTelefone()
+    public string GetTelefone()
     {
         return Telefone;
     }
@@ -36,13 +37,13 @@ public class Cliente
         return email;
     }
 
-      int cnpj;
+      string cnpj;
     
-    public void Setcnpj(int cnpj)
+    public void Setcnpj(string cnpj)
     {
         this.cnpj = cnpj;
     }
-    public int Getcnpj()
+    public string Getcnpj()
     {
         return cnpj;
     }
@@ -59,16 +60,16 @@ public class Cliente
         return endereço;
     }
     
-    int cpf;
+    string cpf;
     
-    public void Setcpf(int cpf)
+    public void Setcpf(string cpf)
     {
         this.cpf = cpf;
     }
-    public int Getcpf()
+    public string Getcpf()
     {
         return cpf;
     }
 
-
+  }
 }

@@ -1,3 +1,6 @@
+namespace Modelos
+{
+
 public class Viabilidade{
 
   string produto;
@@ -39,6 +42,6 @@ public class Viabilidade{
     
 
 
-    
+}
 
 }
